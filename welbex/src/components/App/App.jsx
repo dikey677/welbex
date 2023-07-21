@@ -1,13 +1,15 @@
-import WelbexHeader from "../WelbexHeader/WelbexHeader";
+import Navigation from "../Navigation/Navigation";
+import MainSection from "../Main/Main";
+import Footer from "../Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="">
-        <WelbexHeader />
+    <div className="app">
+      <header className="header">
+        <Navigation />
       </header>
-      <main></main>
-      <footer></footer>
+      <MainSection />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,25 @@
+.nav {
+  width: 320px;
+  height: 55px;
+  flex-shrink: 0;
+  background-color: var(--black, #0e1014);
+  padding: 15px 16px;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+
+  &__link {
+    color: var(--light-text, #e4e5ea);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}

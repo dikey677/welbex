@@ -2,19 +2,27 @@ import { /*Routes, Route,*/ Link } from "react-router-dom";
 
 const Welbex = () => {
   return (
-    <nav>
-      <ul>
-        <li>
-          <Link to="/services">Услуги</Link>
+    <nav className="nav">
+      <ul className="nav-list">
+        <li className="nav-list__item">
+          <Link className="nav-list__link" to="/services">
+            Услуги
+          </Link>
         </li>
-        <li>
-          <Link to="/widgets">Виджеты</Link>
+        <li className="nav-list__item">
+          <Link className="nav-list__link" to="/widgets">
+            Виджеты
+          </Link>
         </li>
-        <li>
-          <Link to="/integrations">Интеграции</Link>
+        <li className="nav-list__item">
+          <Link className="nav-list__link" to="/integrations">
+            Интеграции
+          </Link>
         </li>
-        <li>
-          <Link to="/cases">Кейсы</Link>
+        <li className="nav-list__item">
+          <Link className="nav-list__link" to="/cases">
+            Кейсы
+          </Link>
         </li>
       </ul>
     </nav>
