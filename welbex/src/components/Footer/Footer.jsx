@@ -1,3 +1,5 @@
+import { /* Routes, Route */ Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="footer">
@@ -28,7 +30,9 @@ const Footer = () => {
         <address className="footer-contacts__address">
           <ul className="footer-contacts__list">
             <li className="footer-contacts__item">
-              <a href="tel:+75555555555">+7 555 555-55-55</a>
+              <Link to="tel:+75555555555" className="footer-contacts__phone">
+                +7 555 555-55-55
+              </Link>
             </li>
             <li className="footer-contacts__item"></li>
             <li className="footer-contacts__item">
@@ -39,12 +43,14 @@ const Footer = () => {
         <div className="footer-privacy">
           <ul className="footer-privacy__list">
             <li className="footer-privacy__item">
-              ©WELBEX 2022. Все права защищены.
+              <span className="footer-privacy__protection">
+                ©WELBEX 2022. Все права защищены.
+              </span>
             </li>
-            <li className="footer-privacy__item">
-              <a href="#" className="footer-privacy__link">
+            <li>
+              <Link to="/privacy" className="footer-privacy__link">
                 Политика конфиденциальности
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

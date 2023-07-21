@@ -3,3 +3,119 @@
   height: 559px;
   flex-shrink: 0;
 }
+
+.footer-about {
+  &__title {
+    color: var(--dark-gray, #656566);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+  }
+
+  &__list {
+    list-style-type: none;
+  }
+
+  &__item {
+    color: var(--light-text, #e4e5ea);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.footer-menu {
+  &__title {
+    color: var(--dark-gray, #656566);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+  }
+
+  &__list {
+    list-style-type: none;
+  }
+
+  &__item {
+    color: var(--light-text, #e4e5ea);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.footer-contacts {
+  &__title {
+    color: var(--dark-gray, #656566);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+  }
+
+  &__list {
+    list-style-type: none;
+  }
+
+  &__item {
+    color: var(--light-text, #e4e5ea);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  &__phone {
+    color: var(--light-text, #e4e5ea);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+  }
+}
+
+.footer-privacy {
+  &__list {
+    list-style-type: none;
+  }
+
+  &__item {
+  }
+
+  &__protection {
+    color: var(--light-text, #e4e5ea);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  &__link {
+    color: var(--light-text, #e4e5ea);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+  }
+}
