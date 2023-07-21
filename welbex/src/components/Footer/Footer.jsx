@@ -13,16 +13,56 @@ const Footer = () => {
       <div className="footer-menu">
         <p className="footer-menu__title">Меню</p>
         <ul className="footer-menu__list">
-          <li className="footer-menu__item">Рассчет стоимости</li>
-          <li className="footer-menu__item">Услуги</li>
-          <li className="footer-menu__item">Виджеты</li>
-          <li className="footer-menu__item">Интеграция</li>
-          <li className="footer-menu__item">Наши клиенты</li>
-          <li className="footer-menu__item">Благоджарность клиентов</li>
-          <li className="footer-menu__item">Кейсы</li>
-          <li className="footer-menu__item">Сертификаты</li>
-          <li className="footer-menu__item">Блог на YouTube</li>
-          <li className="footer-menu__item">Вопрос / Ответ</li>
+          <li className="footer-menu__item">
+            <Link to="/price" className="footer-menu__link">
+              Рассчет стоимости
+            </Link>
+          </li>
+          <li className="footer-menu__item">
+            <Link to="/services" className="footer-menu__link">
+              Услуги
+            </Link>
+          </li>
+          <li className="footer-menu__item">
+            <Link to="/widgets" className="footer-menu__link">
+              Виджеты
+            </Link>
+          </li>
+          <li className="footer-menu__item">
+            <Link to="/integration" className="footer-menu__link">
+              Интеграция
+            </Link>
+          </li>
+          <li className="footer-menu__item">
+            <Link to="/clients" className="footer-menu__link">
+              Наши клиенты
+            </Link>
+          </li>
+          <li className="footer-menu__item">
+            <Link to="/thanks" className="footer-menu__link">
+              Благодарность клиентов
+            </Link>
+          </li>
+          <li className="footer-menu__item">
+            <Link to="/cases" className="footer-menu__link">
+              Кейсы
+            </Link>
+          </li>
+          <li className="footer-menu__item">
+            <Link to="/certificated" className="footer-menu__link">
+              Сертификаты
+            </Link>
+          </li>
+          <li className="footer-menu__item">
+            <a href="http://youtube.com/" className="footer-menu__link">
+              Блог на YouTube
+            </a>
+          </li>
+          <li className="footer-menu__item">
+            <Link to="/questions" className="footer-menu__link">
+              Вопрос / Ответ
+            </Link>
+          </li>
         </ul>
       </div>
       <div className="footer-contacts">
@@ -34,7 +74,7 @@ const Footer = () => {
                 +7 555 555-55-55
               </Link>
             </li>
-            <li className="footer-contacts__item"></li>
+            <li className="footer-contacts__item">ABC</li>
             <li className="footer-contacts__item">
               <span>Москва, Путевой проезд 3с1, к 902</span>
             </li>
@@ -47,7 +87,7 @@ const Footer = () => {
                 ©WELBEX 2022. Все права защищены.
               </span>
             </li>
-            <li>
+            <li className="footer-privacy__item">
               <Link to="/privacy" className="footer-privacy__link">
                 Политика конфиденциальности
               </Link>

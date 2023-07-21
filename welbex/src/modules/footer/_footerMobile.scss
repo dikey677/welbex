@@ -2,6 +2,7 @@
   width: 289px;
   height: 559px;
   flex-shrink: 0;
+  padding-top: 45px;
 }
 
 .footer-about {
@@ -18,6 +19,7 @@
 
   &__list {
     list-style-type: none;
+    margin-top: 20px;
   }
 
   &__item {
@@ -27,10 +29,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 10px;
   }
 }
 
 .footer-menu {
+  margin-top: 30px;
+
   &__title {
     color: var(--dark-gray, #656566);
     font-family: Inter;
@@ -44,19 +49,34 @@
 
   &__list {
     list-style-type: none;
+    column-count: 2;
+    margin-top: 20px;
+    line-height: 1;
+  }
+
+  &__item:first-child {
+    width: 75px;
+    margin: 0;
   }
 
   &__item {
+    margin-top: 10px;
+  }
+
+  &__link {
     color: var(--light-text, #e4e5ea);
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-decoration: none;
   }
 }
 
 .footer-contacts {
+  margin-top: 30px;
+
   &__title {
     color: var(--dark-gray, #656566);
     font-family: Inter;
@@ -70,6 +90,7 @@
 
   &__list {
     list-style-type: none;
+    margin-top: 20px;
   }
 
   &__item {
@@ -79,6 +100,14 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+  }
+
+  &__item:first-child {
+    margin-bottom: 8px;
+  }
+
+  &__item:last-child {
+    margin-top: 10px;
   }
 
   &__phone {
@@ -93,11 +122,14 @@
 }
 
 .footer-privacy {
+  margin-top: 50px;
+
   &__list {
     list-style-type: none;
   }
 
-  &__item {
+  &__item:first-child {
+    margin-bottom: -5px;
   }
 
   &__protection {
