@@ -1,4 +1,7 @@
 .nav {
+  position: fixed;
+  top: 0;
+  z-index: 1;
   width: 320px;
   height: 55px;
   flex-shrink: 0;

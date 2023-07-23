@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@svgr/plugin-prettier": "^8.0.1"
+  }
+}

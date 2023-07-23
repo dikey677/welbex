@@ -18,12 +18,7 @@
     text-transform: uppercase;
   }
 
-  &__list {
-    list-style-type: none;
-    margin-top: 20px;
-  }
-
-  &__item {
+  &__link {
     color: var(--light-text, #e4e5ea);
     font-family: Inter;
     font-size: 14px;
@@ -31,6 +26,12 @@
     font-weight: 400;
     line-height: normal;
     margin-top: 10px;
+    text-decoration: none;
+  }
+
+  &__list {
+    list-style-type: none;
+    margin-top: 20px;
   }
 }
 
@@ -120,6 +121,13 @@
     line-height: normal;
     text-decoration: none;
   }
+
+  &__link-telegram {
+    margin-right: 10px;
+  }
+  &__link-viber {
+    margin-right: 10px;
+  }
 }
 
 .footer-privacy {
@@ -142,7 +150,10 @@
     line-height: normal;
   }
 
-  &__link {
+  &__button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
     color: var(--light-text, #e4e5ea);
     font-family: Montserrat;
     font-size: 12px;

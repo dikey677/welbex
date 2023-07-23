@@ -1,13 +1,26 @@
 import { /* Routes, Route */ Link } from "react-router-dom";
+import { ReactComponent as Telegram } from "./../../images/telegram-min.svg";
+import { ReactComponent as Viber } from "./../../images/viber-min.svg";
+import { ReactComponent as Whatsapp } from "./../../images/whatsapp-min.svg";
 
 const Footer = () => {
+  const ModalIsOpen = () => {};
+
   return (
     <footer className="footer">
       <div className="footer-about">
         <p className="footer-about__title">О компании</p>
         <ul className="footer-about__list">
-          <li className="footer-about__item">Партнерская программа</li>
-          <li className="footer-about__item">Вакансии</li>
+          <li className="footer-about__item">
+            <Link to="/partners" className="footer-about__link">
+              Партнерская программа
+            </Link>
+          </li>
+          <li className="footer-about__item">
+            <Link to="/vacancies" className="footer-about__link">
+              Вакансии
+            </Link>
+          </li>
         </ul>
       </div>
       <div className="footer-menu">
@@ -74,7 +87,26 @@ const Footer = () => {
                 +7 555 555-55-55
               </Link>
             </li>
-            <li className="footer-contacts__item">ABC</li>
+            <li className="footer-contacts__item">
+              <a
+                href="https://telegram.org/"
+                className="footer-contacts__link-telegram"
+              >
+                <Telegram className="svg-contacts" />
+              </a>
+              <a
+                href="https://viber.com/ru/"
+                className="footer-contacts__link-viber"
+              >
+                <Viber className="svg-contacts" />
+              </a>
+              <a
+                href="https://whatsapp.com/?lang=ru"
+                className="footer-contacts__link-whatsapp"
+              >
+                <Whatsapp className="svg-contacts" />
+              </a>
+            </li>
             <li className="footer-contacts__item">
               <span>Москва, Путевой проезд 3с1, к 902</span>
             </li>
@@ -88,9 +120,12 @@ const Footer = () => {
               </span>
             </li>
             <li className="footer-privacy__item">
-              <Link to="/privacy" className="footer-privacy__link">
+              <button
+                className="footer-privacy__button"
+                onClick={ModalIsOpen()}
+              >
                 Политика конфиденциальности
-              </Link>
+              </button>
             </li>
           </ul>
         </div>
