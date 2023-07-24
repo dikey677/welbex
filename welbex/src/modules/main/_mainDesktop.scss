@@ -1,4 +1,4 @@
-@media screen and (max-width: 479px) {
+@media screen and (min-width: 1200px) {
   .main {
     position: relative;
     width: 320px;
@@ -167,7 +167,10 @@
     &__list {
       list-style-type: none;
       margin-top: 20px;
+      margin-left: 15px;
       column-count: 2;
+      // height: 46px;
+
       grid-template-columns: 100px 50px 100px;
       grid-template-rows: 80px auto 80px;
       grid-column-gap: 10px;
@@ -184,11 +187,6 @@
       line-height: normal;
       letter-spacing: 0.65px;
       text-transform: uppercase;
-    }
-
-    &__item:nth-child(1),
-    &__item:nth-child(2) {
-      margin-left: 16px;
     }
   }
 

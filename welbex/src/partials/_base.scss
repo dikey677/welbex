@@ -10,8 +10,8 @@ body {
     "Montserrat", "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: 1440px;
-  height: 980px;
+  max-width: 1440px;
+  max-height: 1115px;
 }
 
 code {

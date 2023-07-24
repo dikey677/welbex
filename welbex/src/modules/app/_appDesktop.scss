@@ -1,9 +1,9 @@
-@media screen and (max-width: 479px) {
+@media screen and (min-width: 1200px) {
   .app {
     position: relative;
     padding-top: 55px;
-    width: 320px;
-    height: 1115px;
+    width: 1440px;
+    height: 980px;
     background: var(--black, #0e1014);
     overflow: hidden;
   }

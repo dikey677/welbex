@@ -1,8 +1,28 @@
 @import "./partials/base";
 @import "./partials/vars";
-@import "./modules/navigation/navMobile";
-@import "./modules/header/headerMobile";
-@import "./modules/main/mainMobile";
-@import "./modules/footer/footerMobile";
+
 @import "./modules/app/appMobile";
+@import "./modules/app/appTablet";
+@import "./modules/app/appDesktop";
+
+@import "./modules/header/headerMobile";
+@import "./modules/header/headerTablet";
+@import "./modules/header/headerDesktop";
+
+@import "./modules/logo/logoDesktop";
+
+@import "./modules/navigation/navMobile";
+@import "./modules/navigation/navTablet";
+@import "./modules/navigation/navDesktop";
+
+@import "./modules/main/mainMobile";
+@import "./modules/main/mainTablet";
+@import "./modules/main/mainDesktop";
+
+@import "./modules/footer/footerMobile";
+@import "./modules/footer/footerTablet";
+@import "./modules/footer/footerDesktop";
+
 @import "./modules/svg-contacts/svg-contactsMobile";
+@import "./modules/svg-contacts/svg-contactsTablet";
+@import "./modules/svg-contacts/svg-contactsDesktop";

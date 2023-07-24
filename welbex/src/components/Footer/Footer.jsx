@@ -4,8 +4,6 @@ import { ReactComponent as Viber } from "./../../images/viber-min.svg";
 import { ReactComponent as Whatsapp } from "./../../images/whatsapp-min.svg";
 
 const Footer = () => {
-  const ModalIsOpen = () => {};
-
   return (
     <footer className="footer">
       <div className="footer-about">
@@ -120,12 +118,9 @@ const Footer = () => {
               </span>
             </li>
             <li className="footer-privacy__item">
-              <button
-                className="footer-privacy__button"
-                onClick={ModalIsOpen()}
-              >
+              <Link to="/privacy" className="footer-privacy__link">
                 Политика конфиденциальности
-              </button>
+              </Link>
             </li>
           </ul>
         </div>

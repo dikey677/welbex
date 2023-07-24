@@ -1,0 +1,47 @@
+@media screen and (min-width: 1200px) {
+  .nav {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    width: 948px;
+    height: 73px;
+
+    &__list {
+      list-style-type: none;
+      display: flex;
+    }
+  }
+
+  .nav-list {
+    &__link {
+      color: var(--light-text, #e4e5ea);
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+  }
+
+  .nav-contacts {
+    &__list {
+      display: flex;
+      list-style-type: none;
+      width: 308px;
+      padding-top: 15px;
+    }
+
+    &__phone {
+      color: var(--light-text, #e4e5ea);
+      text-align: right;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+}
