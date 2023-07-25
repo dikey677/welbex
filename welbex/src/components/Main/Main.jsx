@@ -55,12 +55,11 @@ const MainSection = () => {
             {matches.medium && null}
             {matches.large && (
               <main className="main">
-                {/* <div className="main__purple-light"></div>
+                <div className="main__purple-light"></div>
                 <div className="main__red-light"></div>
-                <div className="main__yellow-light"> </div>
-                <div className="main__red-ball"></div>
                 <div className="main__purple-ball"></div>
-                <div className="main__yellow-ball"></div> */}
+                <div className="main__red-ball"></div>
+                <div className="main__red-ball-small"></div>
 
                 <section className="main-section">
                   <div className="main-section__content">
