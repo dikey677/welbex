@@ -1,27 +1,32 @@
 @media screen and (min-width: 1200px) {
   .nav {
-    display: inline-flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 30px;
+    display: flex;
+
     width: 948px;
     height: 73px;
-
-    &__list {
-      list-style-type: none;
-      display: flex;
-    }
   }
 
   .nav-list {
+    display: flex;
+    list-style-type: none;
+    padding-top: 15px;
+    margin: 0;
+
+    &__item {
+      margin-right: 30px;
+    }
+
+    &__item:last-child {
+      margin-right: 0px;
+    }
+
     &__link {
       color: var(--light-text, #e4e5ea);
       font-family: Inter;
-      font-size: 12px;
+      font-size: 16px;
       font-style: normal;
       font-weight: 500;
       line-height: normal;
-      text-transform: uppercase;
       text-decoration: none;
     }
   }
@@ -30,8 +35,18 @@
     &__list {
       display: flex;
       list-style-type: none;
-      width: 308px;
+      width: 310px;
       padding-top: 15px;
+      margin: 0 0 0 137px;
+    }
+
+    &__item:first-child {
+      margin-right: 47px;
+    }
+
+    &__item:nth-child(2),
+    &__item:nth-child(3) {
+      margin-right: 30px;
     }
 
     &__phone {
@@ -42,6 +57,7 @@
       font-style: normal;
       font-weight: 500;
       line-height: normal;
+      text-decoration: none;
     }
   }
 }

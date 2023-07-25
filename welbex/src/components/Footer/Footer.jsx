@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-about">
-        <p className="footer-about__title">О компании</p>
+        <h2 className="footer-about__title">О компании</h2>
         <ul className="footer-about__list">
           <li className="footer-about__item">
             <Link to="/partners" className="footer-about__link">
@@ -22,7 +22,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className="footer-menu">
-        <p className="footer-menu__title">Меню</p>
+        <h2 className="footer-menu__title">Меню</h2>
         <ul className="footer-menu__list">
           <li className="footer-menu__item">
             <Link to="/price" className="footer-menu__link">
@@ -51,12 +51,12 @@ const Footer = () => {
           </li>
           <li className="footer-menu__item">
             <Link to="/thanks" className="footer-menu__link">
-              Благодарность клиентов
+              Кейсы
             </Link>
           </li>
           <li className="footer-menu__item">
             <Link to="/cases" className="footer-menu__link">
-              Кейсы
+              Благодарственные письма
             </Link>
           </li>
           <li className="footer-menu__item">
@@ -77,7 +77,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className="footer-contacts">
-        <p className="footer-contacts__title">Контакты</p>
+        <h2 className="footer-contacts__title">Контакты</h2>
         <address className="footer-contacts__address">
           <ul className="footer-contacts__list">
             <li className="footer-contacts__item">
