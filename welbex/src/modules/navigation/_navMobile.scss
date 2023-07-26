@@ -6,7 +6,7 @@
     width: 320px;
     height: 55px;
     flex-shrink: 0;
-    background-color: var(--black, #0e1014);
+    background-color: var(--black);
     padding: 15px 16px;
   }
 
@@ -17,7 +17,7 @@
     align-items: center;
 
     &__link {
-      color: var(--light-text, #e4e5ea);
+      color: var(--light-text);
       font-family: Inter;
       font-size: 12px;
       font-style: normal;

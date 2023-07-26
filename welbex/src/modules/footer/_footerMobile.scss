@@ -9,7 +9,7 @@
 
   .footer-about {
     &__title {
-      color: var(--dark-gray, #656566);
+      color: var(--dark-gray);
       font-family: Inter;
       font-size: 12px;
       font-style: normal;
@@ -20,7 +20,7 @@
     }
 
     &__link {
-      color: var(--light-text, #e4e5ea);
+      color: var(--light-text);
       font-family: Inter;
       font-size: 14px;
       font-style: normal;
@@ -40,7 +40,7 @@
     margin-top: 30px;
 
     &__title {
-      color: var(--dark-gray, #656566);
+      color: var(--dark-gray);
       font-family: Inter;
       font-size: 12px;
       font-style: normal;
@@ -67,7 +67,7 @@
     }
 
     &__link {
-      color: var(--light-text, #e4e5ea);
+      color: var(--light-text);
       font-family: Inter;
       font-size: 14px;
       font-style: normal;
@@ -81,7 +81,7 @@
     margin-top: 30px;
 
     &__title {
-      color: var(--dark-gray, #656566);
+      color: var(--dark-gray);
       font-family: Inter;
       font-size: 12px;
       font-style: normal;
@@ -97,7 +97,7 @@
     }
 
     &__item {
-      color: var(--light-text, #e4e5ea);
+      color: var(--light-text);
       font-family: Inter;
       font-size: 14px;
       font-style: normal;
@@ -114,7 +114,7 @@
     }
 
     &__phone {
-      color: var(--light-text, #e4e5ea);
+      color: var(--light-text);
       font-family: Inter;
       font-size: 16px;
       font-style: normal;
@@ -143,7 +143,7 @@
     }
 
     &__protection {
-      color: var(--light-text, #e4e5ea);
+      color: var(--light-text);
       font-family: Montserrat;
       font-size: 12px;
       font-style: normal;
@@ -155,14 +155,14 @@
       border: none;
       background: transparent;
       cursor: pointer;
-      color: var(--light-text, #e4e5ea);
+      color: var(--light-text);
       font-family: Montserrat;
       font-size: 12px;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
       text-decoration: none;
-      border-bottom: 1px var(--light-text, #e4e5ea) solid;
+      border-bottom: 1px var(--light-text) solid;
     }
   }
 }

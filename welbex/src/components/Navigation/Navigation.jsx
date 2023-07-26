@@ -11,7 +11,7 @@ const Welbex = () => {
       <Media
         queries={{
           small: "(max-width: 479px)",
-          medium: "(min-width: 480px) and (max-width: 767px)",
+          // medium: "(min-width: 480px) and (max-width: 767px)",
           large: "(min-width: 1200px)",
         }}
       >
@@ -43,7 +43,7 @@ const Welbex = () => {
                 </ul>
               </nav>
             )}
-            {matches.medium && null}
+            {/* {matches.medium && null} */}
             {matches.large && (
               <nav className="nav">
                 <ul className="nav-list">

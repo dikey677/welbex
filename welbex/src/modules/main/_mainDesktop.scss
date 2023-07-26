@@ -1,15 +1,6 @@
 @media screen and (min-width: 1200px) {
   .main {
     width: 1140px;
-    // background: radial-gradient(
-    //   304.35% 148.2% at 3.2% 3.49%,
-    //   rgba(255, 246, 233, 0.1) 0%,
-    //   rgba(26, 29, 35, 0.1) 26.62%,
-    //   rgba(26, 29, 35, 0.1) 52.1%,
-    //   rgba(26, 29, 35, 0.01) 70.17%,
-    //   rgba(26, 29, 35, 0) 100%
-    // );
-    // backdrop-filter: blur(7.5px);
 
     &__purple-light {
       position: absolute;
@@ -44,17 +35,10 @@
       width: 60px;
       height: 60px;
       flex-shrink: 0;
-      background: radial-gradient(
-        82.3% 82.3% at 27.25% 26.5%,
-        rgba(236, 208, 255, 0.64) 0%,
-        rgba(161, 93, 207, 0.24) 59.67%,
-        rgba(118, 49, 164, 0.21) 78.59%,
-        rgba(86, 24, 128, 0.23) 100%
-      );
-      filter: drop-shadow(3px 6px 27px rgba(177, 118, 217, 0.25)) blur(5px);
+      background: var(--purple-ball-gradient);
+      filter: var(--filter-shadow) blur(5px);
       backdrop-filter: blur(2px);
       border-radius: 50%;
-      // z-index: -1;
     }
 
     &__red-ball {
@@ -64,14 +48,8 @@
       width: 83px;
       height: 83px;
       flex-shrink: 0;
-      background: radial-gradient(
-        82.3% 82.3% at 27.25% 26.5%,
-        rgba(255, 208, 208, 0.54) 0%,
-        rgba(212, 93, 93, 0.26) 59.67%,
-        rgba(167, 49, 49, 0.25) 78.59%,
-        rgba(130, 25, 25, 0.25) 100%
-      );
-      filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25));
+      background: var(--red-ball-gradient);
+      filter: var(--filter-shadow);
       backdrop-filter: blur(2px);
       border-radius: 50%;
     }
@@ -83,14 +61,8 @@
       width: 28px;
       height: 28px;
       flex-shrink: 0;
-      background: radial-gradient(
-        82.3% 82.3% at 27.25% 26.5%,
-        rgba(255, 208, 208, 0.48) 0%,
-        rgba(212, 93, 93, 0.25) 59.67%,
-        rgba(167, 49, 49, 0.26) 78.59%,
-        rgba(130, 25, 25, 0.23) 100%
-      );
-      filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25)) blur(2.5px);
+      background: var(--red-ball-small-gradient);
+      filter: var(--filter-shadow) blur(2px);
       backdrop-filter: blur(2px);
       border-radius: 50%;
     }
@@ -107,7 +79,7 @@
 
     &__title {
       width: 362px;
-      color: #e4e5ea;
+      color: var(--light-text);
       font-family: Inter;
       font-size: 48px;
       font-style: normal;
@@ -116,15 +88,11 @@
     }
 
     &__welbex-text-decor {
-      color: #e4e5ea;
-      background: var(
-        --gradient-welbex-text,
-        linear-gradient(90deg, #fcb045, #ff3f78)
-      );
+      color: var(--light-text);
+      background: var(--gradient-welbex-text);
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      color: #e4e5ea;
       font-family: Inter;
       font-size: 48px;
       font-style: normal;
@@ -135,7 +103,7 @@
     &__description {
       margin: 30px 0 0 0;
       width: 275px;
-      color: var(--light-text, #e4e5ea);
+      color: var(--light-text);
       font-family: Montserrat;
       font-size: 18px;
       font-style: normal;
@@ -153,7 +121,7 @@
     &__offer {
       width: 291px;
       text-align: right;
-      color: var(--light-text, #e4e5ea);
+      color: var(--light-text);
       font-family: Inter;
       font-size: 18px;
       font-style: normal;
@@ -163,10 +131,7 @@
     }
 
     &__consult-text-decor {
-      background: var(
-        --gradient,
-        linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%)
-      );
+      background: var(--gradient);
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -195,7 +160,7 @@
     }
 
     &__name {
-      color: var(--light-text, #e4e5ea);
+      color: var(--light-text);
       text-align: right;
       font-family: Inter;
       font-size: 18px;
@@ -207,7 +172,7 @@
     }
 
     &__text {
-      color: #e4e5ea;
+      color: var(--light-text);
       text-align: right;
       font-family: Montserrat;
       font-size: 16px;
@@ -221,7 +186,7 @@
       height: 61px;
       flex-shrink: 0;
       background: #4077f3;
-      color: var(--light-text, #e4e5ea);
+      color: var(--light-text);
       text-align: center;
       font-family: Inter;
       font-size: 16px;

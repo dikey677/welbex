@@ -12,15 +12,15 @@ function App() {
         <div>
           <Media
             queries={{
-              small: "(max-width: 479px)",
-              medium: "(min-width: 480px) and (max-width: 767px)",
+              // small: "(max-width: 479px)",
+              // medium: "(min-width: 480px) and (max-width: 767px)",
               large: "(min-width: 1200px)",
             }}
           >
             {(matches) => (
               <Fragment>
-                {matches.small && null}
-                {matches.medium && null}
+                {/* {matches.small && null} */}
+                {/* {matches.medium && null} */}
                 {matches.large && <Logo />}
               </Fragment>
             )}

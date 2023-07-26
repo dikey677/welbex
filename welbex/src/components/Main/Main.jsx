@@ -7,7 +7,7 @@ const MainSection = () => {
       <Media
         queries={{
           small: "(max-width: 479px)",
-          medium: "(min-width: 480px) and (max-width: 767px)",
+          // medium: "(min-width: 480px) and (max-width: 767px)",
           large: "(min-width: 1200px)",
         }}
       >
@@ -52,7 +52,7 @@ const MainSection = () => {
                 </section>
               </main>
             )}
-            {matches.medium && null}
+            {/* {matches.medium && null} */}
             {matches.large && (
               <main className="main">
                 <div className="main__purple-light"></div>

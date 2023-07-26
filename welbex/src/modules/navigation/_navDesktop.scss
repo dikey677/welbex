@@ -21,7 +21,7 @@
     }
 
     &__link {
-      color: var(--light-text, #e4e5ea);
+      color: var(--light-text);
       font-family: Inter;
       font-size: 16px;
       font-style: normal;
@@ -50,7 +50,7 @@
     }
 
     &__phone {
-      color: var(--light-text, #e4e5ea);
+      color: var(--light-text);
       text-align: right;
       font-family: Inter;
       font-size: 16px;
